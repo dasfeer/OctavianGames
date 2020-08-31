@@ -12,7 +12,8 @@ export class InfoFPS extends PIXI.Container {
 
     /**
      * Получаем FPS
-     * @param style - кастомный стиль оформления
+     * @param positionX
+     * @param positionY
      */
     private setFPSInfo(positionX: number, positionY: number): void {
         const defaultStyle = new PIXI.TextStyle({
