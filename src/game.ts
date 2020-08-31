@@ -212,7 +212,7 @@ export class Game {
             r.blur.blurY = (r.position - r.previousPosition) * 15;
             r.previousPosition = r.position;
 
-            // Update symbol positions on reel.
+            // Обновляем позицию катушки
             for (let j = 0; j < r.symbols.length; j++) {
                 const s = r.symbols[j];
                 const prevy = s.y;
