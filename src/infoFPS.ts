@@ -3,7 +3,7 @@ import * as PIXI from 'pixi.js';
 export class InfoFPS extends PIXI.Container {
     private static readonly DEFAULT_FONT_SIZE: number = 14;
     private static readonly DEFAULT_FONT_COLOR: number = 0xff0000;
-    protected fpsText: PIXI.Text;
+    private fpsText: PIXI.Text;
 
     constructor(positionX: number, positionY: number) {
         super();
