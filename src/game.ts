@@ -107,7 +107,7 @@ export class Game {
     }
 
     /**
-     * Строим крутилки
+     * Позиционируем катушки
      */
     private buildReelContainer(): void {
         const margin = (this.app.screen.height - 150 * 3) / 2;
