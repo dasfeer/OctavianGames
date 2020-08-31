@@ -1,0 +1,37 @@
+{
+  "name": "slots",
+  "version": "1.0.0",
+  "description": "testApp Octavian Games",
+  "main": "index.js",
+  "scripts": {
+    "dist": "webpack",
+    "watch": "webpack -w",
+    "server": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dasfeer/OctavianGames.git"
+  },
+  "author": "Robert Nafikov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dasfeer/OctavianGames/issues"
+  },
+  "homepage": "https://github.com/dasfeer/OctavianGames#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "@types/pixi.js": "^5.0.0",
+    "babel-loader": "^8.1.0",
+    "file-loader": "^6.0.0",
+    "pixi.js": "^5.3.3",
+    "ts-loader": "^8.0.3",
+    "typescript": "^4.0.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "pixi-fps": "^2.0.1"
+  }
+}
